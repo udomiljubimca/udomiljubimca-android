@@ -1,9 +1,10 @@
-package rs.udomiljubimca
+package rs.udomiljubimca.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import rs.udomiljubimca.BaseActivity
+import rs.udomiljubimca.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
