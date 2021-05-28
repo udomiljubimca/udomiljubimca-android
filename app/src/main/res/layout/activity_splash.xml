@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splash.SplashActivity">
+    tools:context=".ui.splash.SplashActivity">
 
     <ImageView
+        android:id="@+id/imgAndroid"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/ic_launcher_foreground"
